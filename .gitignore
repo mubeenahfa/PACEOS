@@ -1,0 +1,3 @@
+# Compiled binaries
+test_scheduler
+*.o
