@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define MAX_TASK 25
+#define MAX_TASK 5
 
 typedef void (*task_callback) (void* context);
 
