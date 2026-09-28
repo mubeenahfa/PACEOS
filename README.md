@@ -21,7 +21,7 @@
 
 ---
 
-## `> what_is_paceos`
+## `> what is paceos`
 
 PACEOS is a lightweight cooperative scheduler designed for small embedded systems.
 
@@ -160,7 +160,7 @@ priority
 
 ---
 
-## `> design_philosophy`
+## `> design philosophy`
 
 PACEOS follows a few deliberately boring rules.
 
@@ -212,7 +212,7 @@ scheduler tick
 
 ---
 
-## `> task_model`
+## `> task model`
 
 Internally, a task contains roughly:
 
@@ -322,7 +322,7 @@ gcc \
 
 ---
 
-## `> current_status`
+## `> current status`
 
 ```text
 PACEOS VERSION: 0.1
