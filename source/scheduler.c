@@ -125,6 +125,21 @@ Task_Operation remove_task(uint8_t handle){
 
 void scheduler_init(void){
     scheduler_tick = 0;
+    curr_task_count = 0;
+    Task *task = &task_table[0];
+
+    for (uint8_t i = 0; i <MAX_TASK; ++i){
+        
+        task->callback      = NULL;
+        task->context       = NULL;
+        task->period_ticks  = 0;
+        task->priority      = 0;
+        task->active        = 0;
+        task->lastcall_tick = 0;
+        ++task;
+        table_isfull[i] = 0;
+
+    }
 }
 
 
